@@ -1,0 +1,22 @@
+To run the program, you need to have the following requirements:
+
+1. Python: Make sure you have Python installed on your system. You can download the latest version of Python from the official Python website (https://www.python.org) and follow the installation instructions specific to your operating system.
+
+2. Required Python Libraries: The program relies on several Python libraries that may not be included with the standard Python installation. You need to install the following libraries using pip, the Python package manager:
+
+   - Tkinter: It is the standard GUI toolkit for Python. It is usually included with Python, but if you don't have it, you can install it using the following command:
+     ```
+     pip install tkinter
+     ```
+
+   - Plyer: It is a library for accessing features of various platforms (such as desktop notifications). Install it using the following command:
+     ```
+     pip install plyer
+     ```
+
+   - PyWhatKit: It is a library for sending WhatsApp messages. Install it using the following command:
+     ```
+     pip install pywhatkit
+     ```
+
+3. WhatsApp Setup: The program uses the PyWhatKit library to send WhatsApp messages. To use this feature, you need to set up a valid WhatsApp account and have it connected to your phone number. Additionally, make sure to replace `"+91YourNumber"` in the `pwt.sendwhatmsg` function call with your actual phone number.
